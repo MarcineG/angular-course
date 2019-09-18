@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-course';
+  selectedNav:string = "recipes";
+
+  onNavigate(site:string) {
+    this.selectedNav = site;
+  }
+
+
+
+
+
+
 }
+
+
